@@ -4,7 +4,7 @@ A fully client-side WebP conversion tool. Drag in PNG/JPEG/GIF images, adjust
 quality, convert with `<canvas>`, and download individually or as a ZIP —
 nothing ever leaves the browser.
 
-Built with **Vite + React + Tailwind CSS v4 + lucide-react + JSZip**.
+Built with **Vite + React + React Router + Tailwind CSS v4 + lucide-react + JSZip**.
 
 ## Getting started
 
@@ -22,14 +22,21 @@ npm run preview # preview the production build locally
 
 ```
 src/
-  i18n/              English/Japanese dictionary + I18nContext (language switch)
-  hooks/useProStatus.js   Pro activation state (localStorage + Stripe return URL)
-  utils/convertToWebp.js  Canvas-based PNG/JPEG/GIF → WebP conversion
-  utils/downloadZip.js    Bundles converted files into a ZIP via JSZip
-  components/        DropZone, QualitySlider, FileList/FileItem, Header,
-                      ProModal (Stripe CTA + promo code), LimitModal (free-tier cap)
+  App.jsx            Router setup: "/" (converter), "/tokushoho", "/terms", "/privacy"
+  i18n/              6-language dictionary (en/ja/zh/hi/es/fr) + I18nContext (language switch)
+  hooks/useProStatus.js       Pro activation state (localStorage + Stripe return URL)
+  context/ProStatusContext.jsx  Shares Pro status + the Go Pro modal across every route
+  utils/convertToWebp.js      Canvas-based PNG/JPEG/GIF → WebP conversion
+  utils/downloadZip.js        Bundles converted files into a ZIP via JSZip
+  components/        Layout (Header/Footer shell), DropZone, QualitySlider,
+                      FileList/FileItem, ProModal (Stripe CTA + promo code),
+                      LimitModal (free-tier cap), LegalPageLayout (shared legal-page chrome)
+  pages/             ConverterPage (the tool itself), Tokushoho, Terms, Privacy
   config.js          Freemium constants + Stripe Payment Link + promo codes
 ```
+
+`vercel.json` rewrites every path to `index.html` so deep links like `/terms`
+resolve correctly on Vercel's static hosting (client-side routing).
 
 ## Freemium logic
 

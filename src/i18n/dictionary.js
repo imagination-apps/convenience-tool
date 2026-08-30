@@ -71,6 +71,9 @@ export const dictionary = {
     },
     footer: {
       privacy: 'Images never leave your device — all conversion happens locally in your browser.',
+      tokushoho: 'Legal Notice (Tokushoho)',
+      terms: 'Terms of Service',
+      privacyPolicy: 'Privacy Policy',
     },
   },
   ja: {
@@ -142,6 +145,9 @@ export const dictionary = {
     },
     footer: {
       privacy: '画像は端末外に送信されません — 変換処理はすべてブラウザ内のローカルで行われます。',
+      tokushoho: '特定商取引法に基づく表記',
+      terms: '利用規約',
+      privacyPolicy: 'プライバシーポリシー',
     },
   },
   zh: {
@@ -213,6 +219,9 @@ export const dictionary = {
     },
     footer: {
       privacy: '图片不会离开您的设备 — 所有转换均在浏览器本地完成。',
+      tokushoho: '特定商交易法相关标示',
+      terms: '服务条款',
+      privacyPolicy: '隐私政策',
     },
   },
   hi: {
@@ -284,6 +293,9 @@ export const dictionary = {
     },
     footer: {
       privacy: 'छवियाँ कभी भी आपके डिवाइस से बाहर नहीं जातीं — सभी रूपांतरण स्थानीय रूप से आपके ब्राउज़र में होते हैं।',
+      tokushoho: 'कानूनी सूचना (टोकुशोहो)',
+      terms: 'सेवा की शर्तें',
+      privacyPolicy: 'गोपनीयता नीति',
     },
   },
   es: {
@@ -355,6 +367,9 @@ export const dictionary = {
     },
     footer: {
       privacy: 'Las imágenes nunca salen de tu dispositivo — toda la conversión ocurre localmente en tu navegador.',
+      tokushoho: 'Aviso legal (Tokushoho)',
+      terms: 'Términos de servicio',
+      privacyPolicy: 'Política de privacidad',
     },
   },
   fr: {
@@ -426,6 +441,9 @@ export const dictionary = {
     },
     footer: {
       privacy: 'Les images ne quittent jamais votre appareil — toute la conversion se fait localement dans votre navigateur.',
+      tokushoho: 'Mentions légales (Tokushoho)',
+      terms: "Conditions d'utilisation",
+      privacyPolicy: 'Politique de confidentialité',
     },
   },
 }
