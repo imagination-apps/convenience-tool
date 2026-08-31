@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://convenience-tool.vercel.app/sitemap.xml
