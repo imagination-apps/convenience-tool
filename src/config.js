@@ -3,7 +3,7 @@
 export const FREE_MAX_FILES = 5
 export const FREE_QUALITY = 0.8
 
-export const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/test_9B64grdxA6scceC41ddfG00'
+export const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/9B64grdxA6scceC41ddfG00'
 
 // Manually-issued promo/license codes accepted in the "enter a code" box.
 // In production you'd likely validate this against a real license service instead
