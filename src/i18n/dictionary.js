@@ -69,6 +69,14 @@ export const dictionary = {
       alreadyPro: "You're on Pro",
       alreadyProBody: 'All limits are unlocked on this device. Thank you for supporting the project!',
     },
+    success: {
+      heading: 'Thank you for your purchase!',
+      subheading: 'Pro features are now unlocked.',
+      badgeActive: 'PRO is active',
+      badgePending: 'Confirming activation…',
+      body: 'Unlimited batch conversions and full quality control are ready to use right now. Reach out anytime if you have questions.',
+      cta: 'Start converting images',
+    },
     footer: {
       privacy: 'Images never leave your device — all conversion happens locally in your browser.',
       tokushoho: 'Legal Notice (Tokushoho)',
@@ -142,6 +150,14 @@ export const dictionary = {
       close: '閉じる',
       alreadyPro: 'Proをご利用中です',
       alreadyProBody: 'このデバイスではすべての制限が解除されています。ご支援ありがとうございます！',
+    },
+    success: {
+      heading: 'ご購入ありがとうございます！',
+      subheading: 'Pro機能が有効化されました。',
+      badgeActive: 'PROが有効です',
+      badgePending: '有効化を確認しています…',
+      body: '無制限の一括変換と、画質の自由な調整が今すぐお使いいただけます。ご不明な点がございましたらお気軽にお問い合わせください。',
+      cta: 'さっそく画像変換を始める',
     },
     footer: {
       privacy: '画像は端末外に送信されません — 変換処理はすべてブラウザ内のローカルで行われます。',
@@ -217,6 +233,14 @@ export const dictionary = {
       alreadyPro: '您已是 Pro 用户',
       alreadyProBody: '此设备上的所有限制均已解锁。感谢您对本项目的支持！',
     },
+    success: {
+      heading: '感谢您的购买！',
+      subheading: 'Pro 功能已启用。',
+      badgeActive: 'PRO 已启用',
+      badgePending: '正在确认启用状态…',
+      body: '无限批量转换和自由画质调整现已可用。如有任何疑问，欢迎随时联系我们。',
+      cta: '立即开始转换图片',
+    },
     footer: {
       privacy: '图片不会离开您的设备 — 所有转换均在浏览器本地完成。',
       tokushoho: '特定商交易法相关标示',
@@ -290,6 +314,14 @@ export const dictionary = {
       close: 'बंद करें',
       alreadyPro: 'आप प्रो पर हैं',
       alreadyProBody: 'इस डिवाइस पर सभी सीमाएं अनलॉक कर दी गई हैं। परियोजना का समर्थन करने के लिए धन्यवाद!',
+    },
+    success: {
+      heading: 'खरीदारी के लिए धन्यवाद!',
+      subheading: 'प्रो सुविधाएँ अब सक्रिय हो गई हैं।',
+      badgeActive: 'प्रो सक्रिय है',
+      badgePending: 'सक्रियण की पुष्टि की जा रही है…',
+      body: 'असीमित बैच रूपांतरण और पूर्ण गुणवत्ता नियंत्रण अब उपयोग के लिए तैयार हैं। किसी भी प्रश्न के लिए कभी भी संपर्क करें।',
+      cta: 'अभी छवियाँ बदलना शुरू करें',
     },
     footer: {
       privacy: 'छवियाँ कभी भी आपके डिवाइस से बाहर नहीं जातीं — सभी रूपांतरण स्थानीय रूप से आपके ब्राउज़र में होते हैं।',
@@ -365,6 +397,14 @@ export const dictionary = {
       alreadyPro: 'Tienes Pro',
       alreadyProBody: 'Todos los límites están desbloqueados en este dispositivo. ¡Gracias por apoyar el proyecto!',
     },
+    success: {
+      heading: '¡Gracias por tu compra!',
+      subheading: 'Las funciones Pro ya están activadas.',
+      badgeActive: 'PRO está activo',
+      badgePending: 'Confirmando la activación…',
+      body: 'Los lotes ilimitados y el control total de calidad ya están listos para usar. Contáctanos cuando quieras si tienes dudas.',
+      cta: 'Empezar a convertir imágenes',
+    },
     footer: {
       privacy: 'Las imágenes nunca salen de tu dispositivo — toda la conversión ocurre localmente en tu navegador.',
       tokushoho: 'Aviso legal (Tokushoho)',
@@ -438,6 +478,14 @@ export const dictionary = {
       close: 'Fermer',
       alreadyPro: 'Vous êtes Pro',
       alreadyProBody: 'Toutes les limites sont débloquées sur cet appareil. Merci de soutenir le projet !',
+    },
+    success: {
+      heading: 'Merci pour votre achat !',
+      subheading: 'Les fonctionnalités Pro sont maintenant débloquées.',
+      badgeActive: 'PRO est actif',
+      badgePending: "Confirmation de l'activation…",
+      body: "Les lots illimités et le contrôle total de la qualité sont prêts à l'emploi dès maintenant. N'hésitez pas à nous contacter en cas de question.",
+      cta: 'Commencer à convertir des images',
     },
     footer: {
       privacy: 'Les images ne quittent jamais votre appareil — toute la conversion se fait localement dans votre navigateur.',
