@@ -1,11 +1,17 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, CheckCircle2, Sparkles } from 'lucide-react'
 import { useI18n } from '../i18n/I18nContext'
 import { useProStatusContext } from '../context/ProStatusContext'
+import { trackPurchaseOnce } from '../utils/analytics'
 
 export default function Success() {
   const { t } = useI18n()
   const { isPro } = useProStatusContext()
+
+  useEffect(() => {
+    trackPurchaseOnce()
+  }, [])
 
   return (
     <div className="mx-auto flex min-h-[70vh] max-w-2xl flex-col items-center justify-center px-4 py-16 text-center sm:px-6">
